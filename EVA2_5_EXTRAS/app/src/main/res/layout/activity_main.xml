@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtApe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTarj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="No. Tarjeta"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/rdGp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trabajador" />
+
+        <RadioButton
+            android:id="@+id/rdEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estudiante" />
+
+        <RadioButton
+            android:id="@+id/rdDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desempleado" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>
